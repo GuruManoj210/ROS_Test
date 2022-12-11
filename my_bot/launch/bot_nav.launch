@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find t3_navigation)/launch/start_navigation.launch">
+    </include>
+
+</launch>

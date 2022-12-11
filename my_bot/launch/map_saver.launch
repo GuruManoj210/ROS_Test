@@ -1,0 +1,9 @@
+<launch>
+
+    <arg name="map_name" default="my_map" />
+
+    <node name="map_saver" pkg="map_server" type="map_saver" args="-f $(find my_bot)/maps/$(arg map_name)">
+        <!-- <remap from="/map" to="$(arg map_saver)"/> -->
+    </node>
+
+</launch>
